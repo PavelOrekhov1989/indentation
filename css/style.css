@@ -1,11 +1,11 @@
-h1 {
-
+.container__title1 {
     margin-bottom: 30px;
     font-weight: 900;
     font-size: 60px;
     line-height: 1.2;
     color: #000;
 }
+
 
 .container {
     margin-bottom: 50px;
@@ -17,7 +17,7 @@ h1 {
 
 
 
-.section__title2 {
+.container__content__title2 {
     font-weight: 700;
     font-size: 44px;
     line-height: 1.2;
@@ -26,12 +26,12 @@ h1 {
     padding-left: 45px;
 }
 
-.section2__item {
+.container__item2 {
     padding-left: 70px;
 }
 
 
-.section__text {
+.container__text {
     display: block;
     margin-bottom: 30px;
     font-weight: 400;
@@ -40,19 +40,19 @@ h1 {
     color: #000;
 }
 
-.section__text:last-child {
+.container__text:last-child {
     margin-bottom: 0;
 }
 
-.section__margin {
+.container__img__margin {
     margin: 0 auto;
 }
 
-.section__img {
+.container__img {
     margin-bottom: 30px;
 }
 
-.section__img:last-child {
+.container__img:last-child {
     margin-bottom: 0;
 }
 
@@ -63,11 +63,11 @@ h1 {
     padding: 0;
 }
 
-.section2__li {
+.container__li {
     margin-bottom: 10px;
 }
 
-.section__title3 {
+.container__title3 {
 
     font-weight: 900;
     font-size: 36px;
@@ -119,11 +119,12 @@ h1 {
     margin-bottom: 0;
 }
 
-.container__footer {
+.footer__container {
     width: 1140px;
     height: 385px;
     background-color: #f1f1f1;
     padding: 0;
+    margin-bottom: 0;
 }
 
 .footer__text {
